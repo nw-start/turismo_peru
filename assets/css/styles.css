@@ -14,6 +14,9 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+.overflow-hidden {
+    overflow: hidden;
+}
 .d-flex {
     display: flex;
 }
@@ -25,6 +28,9 @@
 }
 .list-style-none {
     list-style: none;
+}
+.text-decoration-none {
+    text-decoration: none;
 }
 /*Tipografia*/
 .poppins {
@@ -100,6 +106,10 @@
 .pb-5 {
     padding-bottom: 3rem !important;
 }
+/*margin*/
+.m-auto {
+    margin: auto;
+}
 /* Posicionamiento Texto */
 .text-start {
     text-align: left;
@@ -112,10 +122,16 @@
 }
 /*Color*/
 .text-light {
-    color: #fff;
+    color: rgba(248, 249, 250, 1);
 }
 .text-dark {
-    color: #000;
+    color: rgba(23, 37, 41, 1);
+}
+.text-danger {
+    color: rgba(220, 53, 69, 1);
+}
+.text-warning {
+    color: rgba(255, 193, 7, 1);
 }
 /* Background o Color de fondo */
 .bg-dark {
@@ -152,6 +168,7 @@
     border: 1px solid #000;
 }
 /* Imagenes*/
+/* width o ancho */
 .w-100 {
     width: 100%;
 }
@@ -164,8 +181,15 @@
 .w-25 {
     width: 25%;
 }
+.w-330 {
+    width: 330px;
+}
 .w-400px {
     width: 400px;
+}
+/* height o alto */
+.h-220px {
+    height: 220px;
 }
 /*header o cabecera */
 
@@ -203,27 +227,13 @@
 
 
 /* Index */ 
+.card {
+    width: 330px;
+    height: 430px;
+    border-radius: 7px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    transition: all 0.25s;
+}
 
 
-/* Historia del Perú */ 
-
-
-/* Días festivos */ 
-
-
-/* Contacto */
-
-
-
-/* CIUDADES */
-
-/* Piura */
-
-
-/* Arequipa */
-
-
-/* Lima */
-
-
-/* Cuzco */
